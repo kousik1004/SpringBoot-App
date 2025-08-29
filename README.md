@@ -18,14 +18,14 @@ This project is my solution for the **Bajaj Finserv Health Java Qualifier**.
 java -jar target/qualifier-java-1.0.0.jar
 
 ### Expected flow:
-Calls generateWebhook API
-Prints webhook URL + JWT accessToken
-Chooses Question 1/2 based on regNo
-Loads SQL query from answer.sql
-Submits SQL to webhook with JWT
-Shows submission result
+- Calls generateWebhook API
+- Prints webhook URL + JWT accessToken
+- Chooses Question 1/2 based on regNo
+- Loads SQL query from answer.sql
+- Submits SQL to webhook with JWT
+- Shows submission result
 
 ## 📄 SQL Solution
 
-For my regNo ending with 14 (even) → Question 2.
-Final query is in src/main/resources/answer.sql
+- For my regNo ending with 14 (even) → Question 2.
+- Final query is in src/main/resources/answer.sql
